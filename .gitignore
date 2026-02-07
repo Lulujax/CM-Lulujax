@@ -1,0 +1,32 @@
+﻿# --- Entornos Virtuales (La causa #1 de los 2000 archivos) ---
+venv/
+env/
+.venv/
+.env/
+Scripts/
+Lib/
+Include/
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Sesiones de Navegador (Selenium/Chrome) ---
+*_session/
+facebook_session/
+whatsapp_session/
+chrome_profile/
+User Data/
+Default/
+
+# --- Logs y Errores ---
+*.log
+*.png
+*.jpg
+*.jpeg
+
+# --- IDEs ---
+.idea/
+.vscode/
+*.swp
